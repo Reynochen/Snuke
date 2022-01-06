@@ -266,6 +266,7 @@ void StartSettings(char& sTail, char& sPlayer, char& sFood, char& sWall, char& s
 
 int main(int argc, char* argv)
 {
+	//Texture
 	char sWall = '#';
 	char sAir = ' ';
 	char sFood = 'F';
@@ -273,8 +274,6 @@ int main(int argc, char* argv)
 	char sPlayer = '@';
 
 	srand(unsigned(time(0)));
-
-	//Texture
 
 	std::cout << "\tSnuke\n" << "\n Welcome in my first game\nIs just a snake in console\n\t   Made by Reych636 \n\nPress anythink for continue.";
 	WaitEnter();    
